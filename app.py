@@ -35,7 +35,7 @@ col1, col2, col3, col4 = st.columns(4)
 col1.metric("Alcance total", f"{df_filtrado['alcance'].sum():,}")
 col2.metric("Clics totales", f"{df_filtrado['clicks'].sum():,}")
 col3.metric("Costo Promedio", f"${df_filtrado['costo'].mean():.2f}")
-col4.metric("Inversión total", f"${df_filtrado['total_gastado'].sum():.2f}")
+col4.metric("Inverstotal", f"${df_filtrado['total_gastado'].sum():.2f}")
 
 # Gráficos
 st.subheader("📈 Evolución diaria")
